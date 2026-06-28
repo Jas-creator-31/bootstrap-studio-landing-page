@@ -1,14 +1,16 @@
-import Image from "next/image"
+import { cn } from "./utils/cn";
 import Navbar from "./components/Navbar";
-import bgMainImg from "@/assets/bg-masthead.jpg"
+import Header from "./components/Header";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 bg-zinc-50 font-sans dark:bg-black">
+    <div className={cn(
+      'flex flex-col flex-1',
+      'bg-zinc-50 dark:bg-black',
+      'font-sans'
+      )}>
       <Navbar />
-      <header>
-        <Image src={bgMainImg} alt="bg image" className="w-screen max-h-170"/>
-      </header>
+      <Header/>
     </div>
   );
 }
