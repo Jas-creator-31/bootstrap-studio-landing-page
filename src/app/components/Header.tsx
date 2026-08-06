@@ -4,6 +4,7 @@ import Image from "next/image"
 import bgMainImg from "@/assets/bg-masthead.jpg"
 
 export default function Header() {
+  const mainTest = "Build a landing page\n for your business or project and generate more leads!"
   return (
         <header className={cn(
             'relative min-h-100 max-h-150 w-full',
@@ -20,7 +21,7 @@ export default function Header() {
               'flex flex-col justify-center items-center',
               '',
             'text-white text-3xl font-semibold')}>
-                <h1 className={cn('text-center')}>Build a landing page for your business or project and generate more leads!</h1>
+                <h1 className={cn('text-center whitespace-pre-line')}>{mainTest}</h1>
             </div>
 
             <div className={cn('')}>
