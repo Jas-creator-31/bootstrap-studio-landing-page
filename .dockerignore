@@ -1,0 +1,14 @@
+.node_modules
+.env
+.claude
+CLAUDE.md
+AGENTS.md
+.next
+out
+build
+.git
+.gitignore
+.env.local
+.env.development
+.env.production
+README.md
