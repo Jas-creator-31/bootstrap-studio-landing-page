@@ -32,16 +32,17 @@ export default function Header() {
         <div className={cn(
           "h-14 min-w-36 w-full max-w-96 sm:min-w-28 sm:w-full sm:max-w-96 z-10",
           "flex flex-row items-center",
-          "p-1"
+          "p-1",
         )}>
           <input type="email" className={cn(
             "w-full h-full",
             "p-2 rounded bg-white text-gray-900 placeholder:text-neutral-900/60",
+            "caret-transparent focus:caret-black",
             "text-lg font-normal"
           )}
           placeholder="Enter your email..."
           />
-          
+          {/*button*/}
         </div>
       </div>
     </header>
