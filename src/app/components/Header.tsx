@@ -30,19 +30,38 @@ export default function Header() {
       >
         <h1 className={cn("text-center whitespace-pre-line sm:whitespace-normal")}>{mainTest}</h1>
         <div className={cn(
-          "h-14 min-w-36 w-full max-w-96 sm:min-w-28 sm:w-full sm:max-w-96 z-10",
-          "flex flex-row items-center",
+          "h-max w-full max-w-96 sm:w-lg z-10",
+          "flex flex-col md:flex-row items-center gap-2 md:gap-10",
           "p-1",
         )}>
-          <input type="email" className={cn(
-            "w-full h-full",
-            "p-2 rounded bg-white text-gray-900 placeholder:text-neutral-900/60",
-            "caret-transparent focus:caret-black",
-            "text-lg font-normal"
-          )}
-          placeholder="Enter your email..."
-          />
-          {/*button*/}
+          <div className={cn(
+            "h-max w-full",
+            "flex flex-row items-center justify-center md:justify-end"
+          )}>
+            <input type="email" className={cn(
+              "h-11 w-full",
+              "p-3 rounded bg-white",
+              "text-gray-900 placeholder:text-neutral-900/60",
+              "caret-transparent focus:caret-black",
+              "text-lg font-normal"
+            )}
+            placeholder="Enter your email..."
+            />
+          </div>
+
+          <div className={cn(
+            "h-max w-full",
+            "flex flex-row items-center justify-center md:justify-start"
+          )}>
+            <button className={cn(
+              "h-10 w-30",
+              "align-middle",
+              "p-2 rounded-md bg-blue-400",
+              "text-white text-lg font-normal",
+            )}>
+              Sign up!
+            </button>
+          </div>
         </div>
       </div>
     </header>
