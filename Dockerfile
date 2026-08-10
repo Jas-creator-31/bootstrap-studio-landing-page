@@ -22,5 +22,7 @@ RUN adduser --system --uid 1001 nextjs
 COPY --from=builder --chown=nextjs:nextjs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nextjs /app/.next/static ./.next/static
 
+USER nextjs
+
 # using node to run the app so it is minimal
 CMD ["node", "server.js"]
