@@ -23,6 +23,7 @@ COPY --from=builder --chown=nextjs:nextjs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nextjs /app/.next/static ./.next/static
 
 USER nextjs
+EXPOSE 8000
 
 # using node to run the app so it is minimal
 CMD ["node", "server.js"]
