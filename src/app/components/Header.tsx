@@ -36,10 +36,10 @@ export default function Header() {
         <div className={cn( // the secondary container for containers of email input field and sign up button
           "w-screen z-10",
           "flex flex-col md:flex-row items-center justify-center gap-2 md:gap-10",
-          "p-1",
+          "p-8",
         )}>
           <input type="email" className={cn( // email input field
-            "w-3/4 sm:w-md md:w-lg",
+            "w-full sm:w-md md:w-lg",
             "p-2 rounded bg-white",
             "text-gray-900 placeholder:text-neutral-900/60",
             "caret-transparent focus:caret-black",
