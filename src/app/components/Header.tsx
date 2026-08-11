@@ -43,7 +43,7 @@ export default function Header() {
             "flex flex-row items-center justify-center md:justify-end"
           )}>
             <input type="email" className={cn( // email input field
-              "w-full",
+              "w-full sm:w-md md:w-lg",
               "p-3 rounded bg-white",
               "text-gray-900 placeholder:text-neutral-900/60",
               "caret-transparent focus:caret-black",
