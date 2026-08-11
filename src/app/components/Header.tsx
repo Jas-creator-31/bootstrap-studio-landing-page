@@ -29,40 +29,31 @@ export default function Header() {
       >
 
         <h1 // the heading text for the header section
-          className={cn("text-center whitespace-pre-line sm:whitespace-normal")}
+          className={cn("text-center whitespace-pre-line sm:whitespace-normal p-2")}
         >{mainTest}
         </h1>
 
         <div className={cn( // the secondary container for containers of email input field and sign up button
-          "z-10",
-          "flex flex-col md:flex-row items-center gap-2 md:gap-10",
+          "w-screen z-10",
+          "flex flex-col md:flex-row items-center justify-center gap-2 md:gap-10",
           "p-1",
         )}>
-          <div className={cn( // the container for the email input field
-            "flex flex-row items-center justify-center md:justify-end",
+          <input type="email" className={cn( // email input field
+            "w-3/4 sm:w-md md:w-lg",
+            "p-2 rounded bg-white",
+            "text-gray-900 placeholder:text-neutral-900/60",
+            "caret-transparent focus:caret-black",
+            "text-lg font-normal"
+          )}
+          placeholder="Enter your email..."
+          />
+          <button className={cn( // sign up button
+            "align-middle",
+            "p-2 rounded-md bg-blue-400",
+            "text-white text-lg font-normal",
           )}>
-            <input type="email" className={cn( // email input field
-              "w-full sm:w-md md:w-lg",
-              "p-2 rounded bg-white",
-              "text-gray-900 placeholder:text-neutral-900/60",
-              "caret-transparent focus:caret-black",
-              "text-lg font-normal"
-            )}
-            placeholder="Enter your email..."
-            />
-          </div>
-
-          <div className={cn( // the container for the sign up button
-            "flex flex-row items-center justify-center md:justify-start"
-          )}>
-            <button className={cn( // sign up button
-              "align-middle",
-              "p-2 rounded-md bg-blue-400",
-              "text-white text-lg font-normal",
-            )}>
-              Sign up!
-            </button>
-          </div>
+            Sign up!
+          </button>
         </div>
       </div>
     </header>
