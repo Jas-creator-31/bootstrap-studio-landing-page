@@ -39,7 +39,7 @@ export default function Header() {
           "p-1",
         )}>
           <div className={cn( // the container for the email input field
-            "flex flex-row items-center justify-center md:justify-end"
+            "flex flex-row items-center justify-center md:justify-end",
           )}>
             <input type="email" className={cn( // email input field
               "w-full sm:w-md md:w-lg",
