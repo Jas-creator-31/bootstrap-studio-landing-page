@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header // main header element that holds all the other elements for the components
       className={cn(
-        "relative min-h-100 max-h-150 w-full",
+        "relative h-150 w-full",
         "flex flex-col justify-center items-center",
         "p-2",
       )}
@@ -18,7 +18,7 @@ export default function Header() {
         src={bgMainImg}
         fill
         alt="bg image"
-        className={cn("w-screen max-h-170 z-0", "object-cover")}
+        className={cn("w-screen z-0", "object-cover")}
       />
       <div // the content container for the header section
         className={cn(
