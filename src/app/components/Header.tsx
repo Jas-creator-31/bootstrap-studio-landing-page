@@ -42,7 +42,7 @@ export default function Header() {
           <div className={cn( // the container for the email input field
             "flex flex-row items-center justify-center md:justify-end"
           )}>
-            <input type="email" className={cn(
+            <input type="email" className={cn( // email input field
               "w-full",
               "p-3 rounded bg-white",
               "text-gray-900 placeholder:text-neutral-900/60",
@@ -56,7 +56,7 @@ export default function Header() {
           <div className={cn( // the container for the sign up button
             "flex flex-row items-center justify-center md:justify-start"
           )}>
-            <button className={cn(
+            <button className={cn( // sign up button
               "align-middle",
               "p-2 rounded-md bg-blue-400",
               "text-white text-lg font-normal",
