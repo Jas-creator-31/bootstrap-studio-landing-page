@@ -9,9 +9,9 @@ export default function Header() {
   return (
     <header // main header element that holds all the other elements for the components
       className={cn(
-        "relative h-150 w-full",
+        "relative max-h-150 w-full",
         "flex flex-col justify-center items-center",
-        "p-2",
+        "pl-2 pr-2 pt-40 pb-40",
       )}
     >
       <Image // background image component that will be the main background for the header section
