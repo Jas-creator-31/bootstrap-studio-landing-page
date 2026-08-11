@@ -24,7 +24,6 @@ export default function Header() {
         className={cn(
           "relative z-10",
           "flex flex-col justify-center items-center gap-4",
-          "",
           "text-white text-3xl font-semibold",
         )}
       >
