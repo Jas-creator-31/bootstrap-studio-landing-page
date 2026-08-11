@@ -13,6 +13,22 @@ services:
     networks:
       - app-network
 
+    depends_on:
+      - cloudflared
+
+    develop:
+      watch:
+        # sync changes for hot reloading
+        - action: sync
+          path: ./src
+          target: /app/src
+          ignore:
+            - node_modules/
+
+        # rebuild image
+        - action: rebuild
+          path: package.json
+
   cloudflared:
     image: cloudflare/cloudflared:latest
     container_name: cloudflared
