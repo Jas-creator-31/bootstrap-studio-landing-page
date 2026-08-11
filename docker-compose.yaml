@@ -5,7 +5,7 @@ services:
       target: runner
 
     environment:
-      PORT: 8000
+      PORT: 8000 # for some reason nextjs will not use exposed port 8000 unless specified in the environment variables
     ports:
       - "8000:8000"
     env_file:
