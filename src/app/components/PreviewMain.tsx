@@ -18,8 +18,8 @@ export default function PreviewMain() {
   return (
     <section className={cn(
       "w-full",
-      "flex flex-col md:flex-row justify-center items-center",
-      "pt-30 pb-30",
+      "flex flex-col lg:flex-row justify-center items-center",
+      "pt-30 pb-30 lg:pl-40 lg:pr-40",
     )}>
       <Preview Icon={Display} heading={displayIconHeading} peragraph={displayIconParagraph} />
       <Preview Icon={Bootstrap} heading={bootstrapIconHeading} peragraph={bootstrapIconParagraph} />
