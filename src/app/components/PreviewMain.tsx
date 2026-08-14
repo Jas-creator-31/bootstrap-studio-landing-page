@@ -16,10 +16,10 @@ export default function PreviewMain() {
   const okIconParagraph = "Ready to use with your own content, or customize the source files!"
 
   return (
-    <div>
+    <section>
       <Preview icon={screenIcon} heading={screenIconHeading} peragraph={screenIconParagraph} />
       <Preview icon={layersIcon} heading={layersIconHeading} peragraph={layersIconParagraph} />
       <Preview icon={okIcon} heading={okIconHeading} peragraph={okIconParagraph} />
-    </div>
+    </section>
   )
 }
