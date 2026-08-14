@@ -9,7 +9,7 @@ interface Props {
 
 export default function Preview({Icon, heading, peragraph}: Props) {
   return (
-    <div className={cn(
+    <div className={cn( // Main container of Preview component
       "flex flex-col justify-center items-center",
     )}>
       <div className={cn(
