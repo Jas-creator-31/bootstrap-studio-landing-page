@@ -9,8 +9,11 @@ interface Props {
 
 export default function Preview({Icon, heading, peragraph}: Props) {
   return (
-    <div>
-      <div className="w-full max-h-full">
+    <div className="flex flex-col justify-center items-center">
+      <div className={cn(
+        "w-full max-h-full",
+        "flex flex-col justify-center items-center"
+      )}>
         <Icon
           className={cn(
             "w-18 h-18",
