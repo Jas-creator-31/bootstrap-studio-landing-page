@@ -20,9 +20,9 @@ export default function PreviewMain() {
       "w-full max-h-28",
       "flex flex-col md:flex-row"
     )}>
-      <Preview icon={<Display/>} heading={displayIconHeading} peragraph={displayIconParagraph} />
-      <Preview icon={<Bootstrap/>} heading={bootstrapIconHeading} peragraph={bootstrapIconParagraph} />
-      <Preview icon={<CheckCircle/>} heading={checkCircleHeading} peragraph={checkCircleParagraph} />
+      <Preview icon={Display} heading={displayIconHeading} peragraph={displayIconParagraph} />
+      <Preview icon={Bootstrap} heading={bootstrapIconHeading} peragraph={bootstrapIconParagraph} />
+      <Preview icon={CheckCircle} heading={checkCircleHeading} peragraph={checkCircleParagraph} />
     </section>
   )
 }
