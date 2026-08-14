@@ -11,7 +11,12 @@ export default function Preview({Icon, heading, peragraph}: Props) {
   return (
     <div>
       <div className="w-full max-h-full">
-        <Icon/>
+        <Icon
+          className={cn(
+            "w-18 h-18",
+            "text-blue-500"
+          )}
+        />
       </div>
       <h2>{heading}</h2>
       <p>{peragraph}</p>
