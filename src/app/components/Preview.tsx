@@ -11,6 +11,7 @@ export default function Preview({Icon, heading, peragraph}: Props) {
   return (
     <div className={cn( // Main container of Preview component
       "flex flex-col justify-center items-center",
+      "pt-5 pb-5 pr-7 pl-10"
     )}>
       <div className={cn(
         "w-full max-h-full",
