@@ -13,7 +13,7 @@ export default function Preview({Icon, heading, peragraph}: Props) {
       "flex flex-col justify-center items-center",
       "pt-5 pb-8 pr-10 pl-10"
     )}>
-      <div className={cn(
+      <div className={cn( // container for icon
         "w-full max-h-full",
         "flex flex-col justify-center items-center"
       )}>
@@ -24,8 +24,12 @@ export default function Preview({Icon, heading, peragraph}: Props) {
           )}
         />
       </div>
-      <h2>{heading}</h2>
-      <p>{peragraph}</p>
+      <h2 // Main Heading
+        className=""
+      >{heading}</h2>
+      <p // text
+        className=""
+      >{peragraph}</p>
     </div>
   )
 }
