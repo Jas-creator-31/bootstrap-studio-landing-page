@@ -28,7 +28,7 @@ export default function Preview({Icon, heading, peragraph}: Props) {
         className="text-lg font-bold"
       >{heading}</h1>
       <p // text
-        className="text-wrap font-light"
+        className="text-center text-wrap font-light"
       >{peragraph}</p>
     </div>
   )
