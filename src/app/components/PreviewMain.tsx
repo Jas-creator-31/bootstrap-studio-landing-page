@@ -1,25 +1,28 @@
+import {Display, Bootstrap, CheckCircle} from "react-bootstrap-icons"
+
 import Preview from "@/app/components/Preview"
-import screenIcon from "@/assets/screen.svg"
-import layersIcon from "@/assets/layers.svg"
-import okIcon from "@/assets/ok.svg"
+import { cn } from "../utils/cn"
 
 
 export default function PreviewMain() {
 
-  const screenIconHeading = "Fully Responsive"
-  const screenIconParagraph = "This theme will look great on any device, no matter the size!"
+  const displayIconHeading = "Fully Responsive"
+  const displayIconParagraph = "This theme will look great on any device, no matter the size!"
 
-  const layersIconHeading = "Bootstrap 5 Ready"
-  const layersIconParagraph = "Featuring the latest build of the new Bootstrap 5 framework!"
+  const bootstrapIconHeading = "Bootstrap 5 Ready"
+  const bootstrapIconParagraph = "Featuring the latest build of the new Bootstrap 5 framework!"
 
-  const okIconHeading = "Easy to Use"
-  const okIconParagraph = "Ready to use with your own content, or customize the source files!"
+  const checkCircleHeading = "Easy to Use"
+  const checkCircleParagraph = "Ready to use with your own content, or customize the source files!"
 
   return (
-    <section>
-      <Preview icon={screenIcon} heading={screenIconHeading} peragraph={screenIconParagraph} />
-      <Preview icon={layersIcon} heading={layersIconHeading} peragraph={layersIconParagraph} />
-      <Preview icon={okIcon} heading={okIconHeading} peragraph={okIconParagraph} />
+    <section className={cn(
+      "w-full max-h-28",
+      "flex flex-col md:flex-row"
+    )}>
+      <Preview icon={<Display/>} heading={displayIconHeading} peragraph={displayIconParagraph} />
+      <Preview icon={<Bootstrap/>} heading={bootstrapIconHeading} peragraph={bootstrapIconParagraph} />
+      <Preview icon={<CheckCircle/>} heading={checkCircleHeading} peragraph={checkCircleParagraph} />
     </section>
   )
 }

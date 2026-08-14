@@ -1,7 +1,8 @@
-import Image from "next/image"
+import React from "react"
+import { cn } from "@/app/utils/cn"
 
 interface Props {
-  icon: string,
+  icon: React.ReactNode,
   heading: string,
   peragraph: string
 }
@@ -10,11 +11,7 @@ export default function Preview({icon, heading, peragraph}: Props) {
   return (
     <div>
       <div className="w-full max-h-full">
-        <Image
-          src={icon}
-          alt="icon"
-          className="w-18 h-18"
-        />
+        {icon}
       </div>
       <h2>{heading}</h2>
       <p>{peragraph}</p>
