@@ -24,9 +24,9 @@ export default function Preview({Icon, heading, peragraph}: Props) {
           )}
         />
       </div>
-      <h2 // Main Heading
+      <h1 // Main Heading
         className=""
-      >{heading}</h2>
+      >{heading}</h1>
       <p // text
         className=""
       >{peragraph}</p>
