@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   reactCompiler: true,
-  allowedDevOrigins: ["test.jashanpreet.me"],
+  allowedDevOrigins: ['nextjs.jashanpreet.me'],
   output: "standalone",
 };
 
