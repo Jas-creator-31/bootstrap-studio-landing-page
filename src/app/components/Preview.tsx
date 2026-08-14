@@ -25,7 +25,7 @@ export default function Preview({Icon, heading, peragraph}: Props) {
         />
       </div>
       <h1 // Main Heading
-        className=""
+        className="text-lg font-bold"
       >{heading}</h1>
       <p // text
         className=""
