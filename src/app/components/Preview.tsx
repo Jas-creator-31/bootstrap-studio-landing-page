@@ -18,7 +18,7 @@ export default function Preview({Icon, heading, peragraph}: Props) {
         "flex flex-col justify-center items-center"
       )}>
         <Icon
-          className={cn(
+          className={cn( // icon
             "w-18 h-18",
             "text-blue-500"
           )}
