@@ -9,8 +9,12 @@ interface Props {
 export default function Preview({icon, heading, peragraph}: Props) {
   return (
     <div>
-      <div>
-        <Image src={icon} alt="icon"/>
+      <div className="w-full max-h-full">
+        <Image
+          src={icon}
+          alt="icon"
+          className="w-18 h-18"
+        />
       </div>
       <h2>{heading}</h2>
       <p>{peragraph}</p>
