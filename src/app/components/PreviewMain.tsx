@@ -21,9 +21,9 @@ export default function PreviewMain() {
       "flex flex-col lg:flex-row justify-center items-center",
       "pt-30 pb-30 lg:pl-40 lg:pr-40",
     )}>
-      <Preview Icon={Display} heading={displayIconHeading} peragraph={displayIconParagraph} />
-      <Preview Icon={Bootstrap} heading={bootstrapIconHeading} peragraph={bootstrapIconParagraph} />
-      <Preview Icon={CheckCircle} heading={checkCircleHeading} peragraph={checkCircleParagraph} />
+      <Preview Icon={Display} heading={displayIconHeading} paragraph={displayIconParagraph} />
+      <Preview Icon={Bootstrap} heading={bootstrapIconHeading} paragraph={bootstrapIconParagraph} />
+      <Preview Icon={CheckCircle} heading={checkCircleHeading} paragraph={checkCircleParagraph} />
     </section>
   )
 }

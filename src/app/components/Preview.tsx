@@ -4,10 +4,10 @@ import { cn } from "@/app/utils/cn"
 interface Props {
   Icon: React.ComponentType<React.SVGProps<SVGSVGElement>>,
   heading: string,
-  peragraph: string
+  paragraph: string
 }
 
-export default function Preview({Icon, heading, peragraph}: Props) {
+export default function Preview({Icon, heading, paragraph}: Props) {
   return (
     <div className={cn( // Main container of Preview component
       "flex flex-col justify-center items-center",
@@ -29,7 +29,7 @@ export default function Preview({Icon, heading, peragraph}: Props) {
       >{heading}</h1>
       <p // text
         className="text-center text-wrap font-light"
-      >{peragraph}</p>
+      >{paragraph}</p>
     </div>
   )
 }
