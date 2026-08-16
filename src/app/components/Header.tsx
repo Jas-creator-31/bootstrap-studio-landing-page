@@ -17,6 +17,7 @@ export default function Header() {
       <Image // background image component that will be the main background for the header section
         src={bgMainImg}
         fill
+        loading="eager"
         alt="bg image"
         className={cn("w-screen z-0", "object-cover")}
       />
