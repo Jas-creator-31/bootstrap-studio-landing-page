@@ -16,7 +16,6 @@ export default function MainSection({image, heading, paragraph, rowReverse}: Mai
       'place-items-stretch',
     )}>
       <div className={cn(
-        // 'row-span-7',
         rowReverse && 'lg:order-2',
       )}>
         <Image
@@ -28,7 +27,6 @@ export default function MainSection({image, heading, paragraph, rowReverse}: Mai
         />
       </div>
       <div className={cn(
-        // 'row-span-3',
         'flex flex-col justify-center items-center gap-2',
         'p-7',
       )}>
