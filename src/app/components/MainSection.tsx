@@ -5,11 +5,15 @@ interface MainSectionProps {
   image: StaticImageData,
   heading: string,
   paragraph: string,
+  rowReverse?: boolean,
 }
 
-export default function MainSection({image, heading, paragraph}: MainSectionProps) {
+export default function MainSection({image, heading, paragraph, rowReverse}: MainSectionProps) {
   return (
-    <section>
+    <section className={cn(
+      'flex flex-col lg:flex-row',
+      rowReverse && 'flex-row-reverse'
+    )}>
       <div>
         <Image
           src={image}

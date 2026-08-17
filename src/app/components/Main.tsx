@@ -12,7 +12,7 @@ export default function Main() {
 
   return (
     <main>
-      <MainSection image={section1.image} heading={section1.heading} paragraph={section1.paragraph} />
+      <MainSection image={section1.image} heading={section1.heading} paragraph={section1.paragraph} rowReverse={true}/>
     </main>
   )
 }
