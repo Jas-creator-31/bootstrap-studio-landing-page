@@ -11,22 +11,24 @@ interface MainSectionProps {
 export default function MainSection({image, heading, paragraph, rowReverse}: MainSectionProps) {
   return (
     <section className={cn(
-      'grid grid-cols-2 grid-rows-1',
+      "w-full h-150 lg:h-120",
+      'grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1',
       'place-items-stretch',
     )}>
       <div className={cn(
-        // 'lg:w-1/2',
-        rowReverse && 'order-2',
+        // 'row-span-7',
+        rowReverse && 'lg:order-2',
       )}>
         <Image
           src={image}
           alt="section image"
           loading='eager'
-          className={cn("w-full lg:w-1/1", "object-cover")}
+          className={cn("w-full h-full block", "object-cover object-top")}
 
         />
       </div>
       <div className={cn(
+        // 'row-span-3',
         'flex flex-col justify-center items-center gap-2',
         'p-7',
       )}>
