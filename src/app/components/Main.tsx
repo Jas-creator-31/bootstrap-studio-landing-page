@@ -6,7 +6,7 @@ export default function Main() {
 
   const section1 = {
     image: bgShowcase1,
-    heading: 'Fully 5555555 Design',
+    heading: 'Fully Reponsive Design',
     paragraph: "you use a theme created with Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!",
   }
 
