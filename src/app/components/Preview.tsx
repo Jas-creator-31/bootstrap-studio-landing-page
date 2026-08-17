@@ -28,7 +28,7 @@ export default function Preview({Icon, heading, paragraph}: Props) {
         className="text-xl lg:text-lg font-bold"
       >{heading}</h1>
       <p // text
-        className="text-center text-wrap font-light"
+        className="text-center text-wrap font-extralight text-neutral-700"
       >{paragraph}</p>
     </div>
   )
