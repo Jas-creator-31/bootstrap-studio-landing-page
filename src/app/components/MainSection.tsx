@@ -11,7 +11,7 @@ interface MainSectionProps {
 export default function MainSection({image, heading, paragraph, rowReverse}: MainSectionProps) {
   return (
     <section className={cn(
-      'w-screen',
+      'w-screen h-auto',
       'flex flex-col lg:flex-row',
       rowReverse && 'lg:flex-row-reverse',
       'justify-baseline items-center'
@@ -21,7 +21,7 @@ export default function MainSection({image, heading, paragraph, rowReverse}: Mai
           src={image}
           alt="section image"
           loading='eager'
-          className={cn("w-full lg:w-1/1 h-full", "object-cover")}
+          className={cn("w-full lg:w-1/1", "object-cover")}
 
         />
       </div>
