@@ -16,7 +16,7 @@ export default function MainSection({image, heading, paragraph, rowReverse}: Mai
       rowReverse && 'lg:flex-row-reverse',
       'justify-baseline items-center'
     )}>
-      <div className='w-full lg:w-1/2'>
+      <div className='lg:w-1/2'>
         <Image
           src={image}
           alt="section image"
@@ -26,7 +26,7 @@ export default function MainSection({image, heading, paragraph, rowReverse}: Mai
         />
       </div>
       <div className={cn(
-        'w-full lg:w-1/2',
+        'lg:w-1/2',
         'flex flex-col justify-center items-center gap-2',
         'p-7',
       )}>
