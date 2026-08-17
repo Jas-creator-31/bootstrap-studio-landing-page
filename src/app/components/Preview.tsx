@@ -10,8 +10,8 @@ interface Props {
 export default function Preview({Icon, heading, paragraph}: Props) {
   return (
     <div className={cn( // Main container of Preview component
-      "flex flex-col justify-center items-center",
-      "pt-5 pb-8 pr-10 pl-10 gap-2"
+      "flex flex-col justify-around items-center",
+      "pt-5 pb-8 pr-9 pl-9 gap-2"
     )}>
       <div className={cn( // container for icon
         "w-full max-h-full",
