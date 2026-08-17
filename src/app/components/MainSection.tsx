@@ -27,7 +27,7 @@ export default function MainSection({image, heading, paragraph, rowReverse}: Mai
       </div>
       <div className={cn(
         'w-full lg:w-1/2',
-        'flex flex-col justify-center items-start gap-2',
+        'flex flex-col justify-center items-center gap-2',
         'p-7',
       )}>
         <h1 className={cn(
@@ -35,7 +35,7 @@ export default function MainSection({image, heading, paragraph, rowReverse}: Mai
         )}>{heading}</h1>
         <p className={cn(
           'lg:w-3/5',
-          'lg:text-lg font-extralight text-neutral-700',
+          'lg:text-lg text-start font-extralight text-neutral-700',
         )}>{paragraph}</p>
       </div>
     </section>
