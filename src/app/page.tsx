@@ -2,6 +2,7 @@ import { cn } from "./utils/cn";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import PreviewMain from "./components/PreviewMain";
+import Main from "./components/Main";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
       )}>
       <Navbar />
       <Header />
-      <PreviewMain/>
+      <PreviewMain />
+      <Main />
     </div>
   );
 }
