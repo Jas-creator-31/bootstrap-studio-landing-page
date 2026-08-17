@@ -25,9 +25,9 @@ export default function MainSection({image, heading, paragraph, rowReverse}: Mai
 
         />
       </div>
-      <div className='flex flex-col gap-2 w-full lg:w-1/2 p-7'>
-        <h1 className='text-2xl font-bold'>{heading}</h1>
-        <p className="font-extralight text-neutral-700">{paragraph}</p>
+      <div className='flex flex-col justify-center items-center gap-2 w-full lg:w-1/2 p-7'>
+        <h1 className='text-2xl lg:text-3xl font-bold'>{heading}</h1>
+        <p className="lg:w-3/5 lg:text-lg font-extralight text-neutral-700">{paragraph}</p>
       </div>
     </section>
   )
