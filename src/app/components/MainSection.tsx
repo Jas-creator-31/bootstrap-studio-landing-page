@@ -11,12 +11,13 @@ interface MainSectionProps {
 export default function MainSection({image, heading, paragraph, rowReverse}: MainSectionProps) {
   return (
     <section className={cn(
-      'w-screen h-auto',
-      'flex flex-col lg:flex-row',
-      rowReverse && 'lg:flex-row-reverse',
-      'justify-baseline items-center'
+      'grid grid-cols-2 grid-rows-1',
+      rowReverse && '',
     )}>
-      <div className='lg:w-1/2'>
+      <div className={cn(
+        'lg:w-1/2',
+        rowReverse && 'order-2',
+      )}>
         <Image
           src={image}
           alt="section image"
