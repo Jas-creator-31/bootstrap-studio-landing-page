@@ -12,10 +12,10 @@ export default function MainSection({image, heading, paragraph, rowReverse}: Mai
   return (
     <section className={cn(
       'grid grid-cols-2 grid-rows-1',
-      rowReverse && '',
+      'place-items-stretch',
     )}>
       <div className={cn(
-        'lg:w-1/2',
+        // 'lg:w-1/2',
         rowReverse && 'order-2',
       )}>
         <Image
@@ -27,7 +27,6 @@ export default function MainSection({image, heading, paragraph, rowReverse}: Mai
         />
       </div>
       <div className={cn(
-        'lg:w-1/2',
         'flex flex-col justify-center items-center gap-2',
         'p-7',
       )}>
