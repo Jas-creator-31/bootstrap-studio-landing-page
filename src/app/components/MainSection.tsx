@@ -35,7 +35,7 @@ export default function MainSection({image, heading, paragraph, rowReverse}: Mai
         )}>{heading}</h1>
         <p className={cn(
           'lg:w-3/5',
-          'lg:text-lg text-start font-extralight text-neutral-700',
+          'lg:text-lg text-center lg:text-start font-extralight text-neutral-700 text-wrap',
         )}>{paragraph}</p>
       </div>
     </section>
