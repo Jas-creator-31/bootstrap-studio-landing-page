@@ -11,7 +11,7 @@ interface MainSectionProps {
 export default function MainSection({image, heading, paragraph, rowReverse}: MainSectionProps) {
   return (
     <section className={cn(
-      "w-full h-150 lg:h-120",
+      "w-full lg:h-120",
       'grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1',
       'place-items-stretch',
     )}>
