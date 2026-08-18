@@ -10,34 +10,6 @@ interface MainSectionProps {
 
 export default function MainSection({image, heading, paragraph, rowReverse}: MainSectionProps) {
   return (
-    <section className={cn(
-      "w-full",
-      'grid grid-cols-1 grid-rows-2 sm:grid-rows-[10px,1fr] lg:grid-cols-2 lg:grid-rows-1',
-    )}>
-      <div className={cn(
-        rowReverse && 'lg:order-2',
-      )}>
-        <Image
-          src={image}
-          alt="section image"
-          loading='eager'
-          className={cn("w-full h-full block", "object-cover object-top")}
 
-        />
-      </div>
-      <div className={cn(
-        "w-full",
-        'flex flex-col justify-center items-center gap-2',
-        'p-7',
-      )}>
-        <h1 className={cn(
-          'text-2xl lg:text-3xl font-bold',
-        )}>{heading}</h1>
-        <p className={cn(
-          'lg:w-3/5',
-          'lg:text-lg text-center lg:text-start font-extralight text-neutral-700 text-wrap',
-        )}>{paragraph}</p>
-      </div>
-    </section>
   )
 }
