@@ -11,9 +11,9 @@ interface MainSectionProps {
 export default function MainSection({image, heading, paragraph, rowReverse}: MainSectionProps) {
   return (
     <section className={cn(
-      "w-full lg:h-120",
+      "w-full",
       'grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1',
-      'place-items-stretch',
+      // 'place-items-stretch',
     )}>
       <div className={cn(
         rowReverse && 'lg:order-2',
@@ -27,6 +27,7 @@ export default function MainSection({image, heading, paragraph, rowReverse}: Mai
         />
       </div>
       <div className={cn(
+        "w-full h-auto",
         'flex flex-col justify-center items-center gap-2',
         'p-7',
       )}>
