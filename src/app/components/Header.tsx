@@ -3,6 +3,11 @@ import { cn } from "../utils/cn";
 import Image from "next/image";
 import bgMainImg from "@/assets/bg-masthead.jpg";
 
+interface Props{
+  text: string,
+  imageHieght: number
+}
+
 export default function Header() {
   const mainTest =
     "Build a landing page\n for your business or\n project and generate more leads!";
