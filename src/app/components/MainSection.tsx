@@ -28,8 +28,8 @@ export default function MainSection({ image, heading, paragraph, rowReverse }: M
         "flex flex-col justify-center gap-4",
         "p-10 mr-10 lg:mr-0"
       )}>
-        <h2 className="text-2xl md:text-3xl font-bold text-neutral-900">{heading}</h2>
-        <p className="font-extralight text-neutral-700">{paragraph}</p>
+        <h2 className="text-2xl md:text-3xl font-bold text-neutral-900 dark:text-neutral-200">{heading}</h2>
+        <p className="font-extralight text-neutral-700 dark:text-neutral-300">{paragraph}</p>
       </div>
     </section>
   )
