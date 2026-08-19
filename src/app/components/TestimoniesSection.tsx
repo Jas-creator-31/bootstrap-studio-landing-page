@@ -23,7 +23,7 @@ export default function TestimoniesSection({ image, name, text }: Props) {
 
       </div>
       <h1 className={cn("text-xl font-bold text-neutral-800 dark:text-neutral-200")}>{name}</h1>
-      <p>{text}</p>
+      <p className={cn("font-normal text-center text-neutral-700 dark:text-neutral-300")}>{text}</p>
     </section>
   )
 }
