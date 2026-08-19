@@ -29,7 +29,7 @@ export default function Testimonies() {
   return (
     <section className={cn(
         "w-full",
-        "flex flex-row items-center justify-center",
+        "flex flex-col lg:flex-row items-center justify-center",
     )}>
       <TestimoniesSection {...testimony1} />
       <TestimoniesSection {...testimony2} />
