@@ -17,6 +17,7 @@ export default function Home() {
       <PreviewMain />
       <Main />
       <Testimonies />
+      <Header/>
     </div>
   );
 }
