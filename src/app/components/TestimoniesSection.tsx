@@ -22,7 +22,7 @@ export default function TestimoniesSection({ image, name, text }: Props) {
         />
 
       </div>
-      <h1>{name}</h1>
+      <h1 className={cn("text-xl font-bold")}>{name}</h1>
       <p>{text}</p>
     </section>
   )
