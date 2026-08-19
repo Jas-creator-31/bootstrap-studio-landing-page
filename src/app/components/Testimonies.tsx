@@ -37,7 +37,7 @@ export default function Testimonies() {
       </h1>
       <div className={cn(
         "w-full",
-        "flex flex-col lg:flex-row items-center justify-center gap-16"
+        "flex flex-col lg:flex-row items-start justify-center gap-16"
       )}>
         <TestimoniesSection {...testimony1} />
         <TestimoniesSection {...testimony2} />
