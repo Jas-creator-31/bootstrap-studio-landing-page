@@ -5,16 +5,15 @@ import bgMainImg from "@/assets/bg-masthead.jpg";
 
 interface Props{
   text: string,
-  imageHieght: number
+  maxImageHieght: string
 }
 
-export default function Header() {
-  const mainTest =
-    "Build a landing page\n for your business or\n project and generate more leads!";
+export default function Header({text, maxImageHieght}: Props) {
+
   return (
     <header // main header element that holds all the other elements for the components
       className={cn(
-        "relative max-h-150 w-full",
+        `relative ${maxImageHieght} w-full`,
         "flex flex-col justify-center items-center",
         "pl-2 pr-2 pt-40 pb-40",
       )}
@@ -36,7 +35,7 @@ export default function Header() {
 
         <h1 // the heading text for the header section
           className={cn("text-center whitespace-pre-line sm:whitespace-normal p-2")}
-        >{mainTest}
+        >{text}
         </h1>
 
         <div className={cn( // the secondary container for containers of email input field and sign up button

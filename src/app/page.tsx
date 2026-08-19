@@ -6,6 +6,12 @@ import Main from "./components/Main";
 import Testimonies from "./components/Testimonies";
 
 export default function Home() {
+  const mainText =
+    "Build a landing page\n for your business or\n project and generate more leads!";
+  const maintextForBottomOne = "Ready to get started? Sign up now!"
+  const mainHeaderMaxImageHeigth = "max-h-150"
+  const mainHeaderMaxImageHeigthForTheBottomOne = "max-h-88"
+
   return (
     <div className={cn(
       'flex flex-col flex-1',
@@ -13,11 +19,11 @@ export default function Home() {
       'font-sans'
       )}>
       <Navbar />
-      <Header />
+      <Header text={mainText} maxImageHieght={ mainHeaderMaxImageHeigth } />
       <PreviewMain />
       <Main />
       <Testimonies />
-      <Header/>
+      <Header text={maintextForBottomOne} maxImageHieght={ mainHeaderMaxImageHeigthForTheBottomOne } />
     </div>
   );
 }
