@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import PreviewMain from "./components/PreviewMain";
 import Main from "./components/Main";
+import Testimonies from "./components/Testimonies";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Header />
       <PreviewMain />
       <Main />
+      <Testimonies />
     </div>
   );
 }
