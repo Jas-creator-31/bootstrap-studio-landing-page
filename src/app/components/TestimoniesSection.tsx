@@ -17,6 +17,7 @@ export default function TestimoniesSection({ image, name, text }: Props) {
         <Image src={image} alt={`image`}
           className={cn(
             "w-50 h-50",
+            "object-cover",
             "rounded-full shadow-neutral-800 shadow-[0_5px_10px_-5px]"
           )}
         />
