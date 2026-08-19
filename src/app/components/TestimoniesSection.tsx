@@ -15,7 +15,10 @@ export default function TestimoniesSection({ image, name, text }: Props) {
     )}>
       <div className={cn()}>
         <Image src={image} alt={`image`}
-          className={cn("w-80 h-80")}
+          className={cn(
+            "w-50 h-50",
+            "rounded-full shadow-neutral-800 shadow-[0_5px_10px_-5px]"
+          )}
         />
 
       </div>
