@@ -25,11 +25,11 @@ export default function MainSection({ image, heading, paragraph, rowReverse }: M
       </div>
       <div className={cn(
         "w-full",
-        "flex flex-col justify-center items-center gap-4",
-        "p-10"
+        "flex flex-col justify-center gap-4",
+        "p-10 mr-10 lg:mr-0"
       )}>
-        <h2>{heading}</h2>
-        <p>{paragraph}</p>
+        <h2 className="text-2xl md:text-3xl font-bold text-neutral-900">{heading}</h2>
+        <p className="font-extralight text-neutral-700">{paragraph}</p>
       </div>
     </section>
   )
