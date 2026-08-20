@@ -2,7 +2,7 @@ import {Facebook, Instagram, Twitter} from "react-bootstrap-icons"
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="flex flex-row flex-wrap justify-between items-center p-20">
       <div>
         <li className="text-blue-500 underline">
           <ul>About</ul>
