@@ -1,3 +1,5 @@
+import {Facebook, Instagram, Twitter} from "react-bootstrap-icons"
+
 export default function Footer() {
   return (
     <footer>
@@ -10,7 +12,11 @@ export default function Footer() {
         </li>
         <p>© Brand 2026. All Rights Reserved.</p>
       </div>
-      <div></div>
+      <div className="text-blue-500">
+        <Facebook />
+        <Twitter />
+        <Instagram />
+      </div>
     </footer>
   );
 }
