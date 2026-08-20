@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer>
       <div>
-        <li>
+        <li className="text-blue-500 underline">
           <ul>About</ul>
           <ul>Contact</ul>
           <ul>Terms of Use</ul>
