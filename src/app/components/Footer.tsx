@@ -12,7 +12,7 @@ export default function Footer() {
         </li>
         <p>© Brand 2026. All Rights Reserved.</p>
       </div>
-      <div className="text-blue-500">
+      <div className="text-blue-500 flex flex-row flex-wrap justify-center items-center">
         <Facebook />
         <Twitter />
         <Instagram />
