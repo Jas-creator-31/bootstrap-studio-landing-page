@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/'
   },
+  verification: {
+    google: "5b_TX67WCvt5IvNQzYLBhiuCAiJ_bBW49FFbSaM8ZeY",
+  },
   openGraph: {
     title: "Bootstrap Studio Landing Page recreated",
     description: "Bootstrap Studio Landing Page is recreated in nextjs and tailwind CSS",
