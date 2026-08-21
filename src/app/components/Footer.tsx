@@ -15,10 +15,10 @@ export default function Footer() {
         </li>
         <p>© Brand 2026. All Rights Reserved.</p>
       </div>
-      <div className="text-blue-500 flex flex-row flex-wrap justify-center items-center">
-        <Facebook />
-        <Twitter />
-        <Instagram />
+      <div className="text-blue-500 flex flex-row flex-wrap justify-center items-center gap-6">
+        <Facebook className="h-8 w-8" />
+        <Twitter className="h-8 w-8" />
+        <Instagram className="h-8 w-8" />
       </div>
     </footer>
   );
