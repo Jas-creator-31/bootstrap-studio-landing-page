@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className={cn('flex flex-row justify-end-safe')}>
             <button className={cn(
               'p-2 rounded-md',
-              'text-white bg-blue-400 hover:bg-blue-500 cursor-pointer')}>
+              'text-white bg-blue-400 hover:bg-blue-500 active:scale-95 cursor-pointer')}>
                 Sign In
             </button>
         </div>
