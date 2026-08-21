@@ -10,7 +10,7 @@ export default function Footer() {
           <ul className="text-blue-500 underline p-3">Terms of Use</ul>
           <ul className="text-blue-500 underline p-3">Privacy Policy</ul>
         </li>
-        <p>© Brand 2026. All Rights Reserved.</p>
+        <p className="text-neutral-700 dark:text-neutral-300">© Brand 2026. All Rights Reserved.</p>
       </div>
       <div className="text-blue-500 w-full lg:max-w-1/2 flex flex-row flex-wrap justify-center lg:justify-end items-center gap-6">
         <Facebook className="h-8 w-8" />
