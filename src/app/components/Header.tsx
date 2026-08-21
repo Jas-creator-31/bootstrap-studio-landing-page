@@ -54,7 +54,7 @@ export default function Header({text, maxImageHieght}: Props) {
           />
           <button className={cn( // sign up button
             "align-middle",
-            "p-2 rounded-md bg-blue-400",
+            "p-2 rounded-md bg-blue-400 hover:bg-blue-500",
             "text-white text-lg font-normal",
           )}>
             Sign up!
