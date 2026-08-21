@@ -5,13 +5,10 @@ export default function Footer() {
     <footer className="flex flex-col lg:flex-row justify-center lg:justify-between items-center p-10 gap-8">
       <div className="flex flex-col flex-wrap justify-center items-center">
         <li className="flex flex-row flex-wrap justify-center items-center">
-          <ul className="text-blue-500 underline">About</ul>
-          <span className="flex items-center justify-center text-neutral-800 text-center p-3 h-full">.</span>
-          <ul className="text-blue-500 underline">Contact</ul>
-          <span className="flex items-center justify-center text-neutral-800 text-center p-3 h-full">.</span>
-          <ul className="text-blue-500 underline">Terms of Use</ul>
-          <span className="flex items-center justify-center text-neutral-800 text-center p-3 h-full">.</span>
-          <ul className="text-blue-500 underline">Privacy Policy</ul>
+          <ul className="text-blue-500 underline p-3">About</ul>
+          <ul className="text-blue-500 underline p-3">Contact</ul>
+          <ul className="text-blue-500 underline p-3">Terms of Use</ul>
+          <ul className="text-blue-500 underline p-3">Privacy Policy</ul>
         </li>
         <p>© Brand 2026. All Rights Reserved.</p>
       </div>
