@@ -15,14 +15,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Bootstrap Studio Landing Page recreated",
   description: "Bootstrap Studio Landing Page is recreated in nextjs and tailwind CSS",
-  metadataBase: new URL("bootstrap-studio-landing-page.jashanpreet.me"),
+  metadataBase: new URL("https://bootstrap-studio-landing-page.jashanpreet.me"),
   alternates: {
     canonical: '/'
   },
   openGraph: {
     title: "Bootstrap Studio Landing Page recreated",
     description: "Bootstrap Studio Landing Page is recreated in nextjs and tailwind CSS",
-    url: "bootstrap-studio-landing-page.jashanpreet.me",
+    url: "https://bootstrap-studio-landing-page.jashanpreet.me",
     siteName: "Bootstrap Studio Landing Page recreated",
     locale: "en_US",
     type: "website",
