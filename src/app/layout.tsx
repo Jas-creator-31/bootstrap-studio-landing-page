@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     canonical: '/'
   },
   verification: {
-    google: "5b_TX67WCvt5IvNQzYLBhiuCAiJ_bBW49FFbSaM8ZeY",
+    google: process.env.GOOGLE_SITE_VERIFICATION,
   },
   openGraph: {
     title: "Bootstrap Studio Landing Page recreated",
