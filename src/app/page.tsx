@@ -1,10 +1,10 @@
-import { cn } from "./utils/cn";
-import Navbar from "./components/Navbar";
-import Header from "./components/Header";
-import PreviewMain from "./components/PreviewMain";
-import Main from "./components/Main";
-import Testimonies from "./components/Testimonies";
-import Footer from "./components/Footer";
+import { cn } from "@/utils/cn";
+import Navbar from "@/components/Navbar";
+import Header from "@/components/Header";
+import PreviewMain from "@/components/PreviewMain";
+import Main from "@/components/Main";
+import Testimonies from "@/components/Testimonies";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const mainText =

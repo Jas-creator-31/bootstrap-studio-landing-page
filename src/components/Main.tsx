@@ -1,4 +1,4 @@
-import MainSection from '@/app/components/MainSection'
+import MainSection from '@/components/MainSection'
 import bgShowcase1 from '@/assets/bg-showcase-1.jpg'
 import bgShowcase2 from '@/assets/bg-showcase-2.jpg'
 import bgShowcase3 from '@/assets/bg-showcase-3.jpg'

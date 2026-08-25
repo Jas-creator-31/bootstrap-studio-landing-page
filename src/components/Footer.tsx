@@ -1,6 +1,6 @@
 import {Facebook, Instagram, Twitter} from "react-bootstrap-icons"
 
-import { cn } from "@/app/utils/cn"
+import { cn } from "@/utils/cn"
 
 export default function Footer() {
   return (

@@ -1,5 +1,5 @@
-import {cn} from "@/app/utils/cn";
-import TestimoniesSection from "@/app/components/TestimoniesSection";
+import {cn} from "@/utils/cn";
+import TestimoniesSection from "@/components/TestimoniesSection";
 
 import testimonyImage1 from "@/assets/testimonials-1.jpg"
 import testimonyImage2 from "@/assets/testimonials-2.jpg"

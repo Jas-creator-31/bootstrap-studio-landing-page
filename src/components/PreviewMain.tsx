@@ -1,7 +1,7 @@
 import {Display, Bootstrap, CheckCircle} from "react-bootstrap-icons"
 
-import Preview from "@/app/components/Preview"
-import { cn } from "../utils/cn"
+import Preview from "@/components/Preview"
+import { cn } from "@/utils/cn"
 
 
 export default function PreviewMain() {

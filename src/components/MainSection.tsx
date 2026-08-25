@@ -1,4 +1,4 @@
-import { cn } from '@/app/utils/cn'
+import { cn } from '@/utils/cn'
 import Image, { StaticImageData } from 'next/image'
 
 interface MainSectionProps {

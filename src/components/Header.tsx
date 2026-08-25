@@ -1,5 +1,5 @@
 import React from "react";
-import { cn } from "../utils/cn";
+import { cn } from "@/utils/cn";
 import Image from "next/image";
 import bgMainImg from "@/assets/bg-masthead.jpg";
 
