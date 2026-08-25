@@ -11,6 +11,7 @@ export default function Main() {
     paragraph: "you use a theme created with Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!",
   }
 
+
   const section2 = {
     image: bgShowcase2,
     heading: 'Updated For Bootstrap 5',
